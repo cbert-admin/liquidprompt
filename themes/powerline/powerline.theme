@@ -12,7 +12,7 @@ _lp_powerline_theme_activate() {
 
     # Load default colors if not already defined
     POWERLINE_HOST_COLOR=( ${POWERLINE_HOST_COLOR[@]+"${POWERLINE_HOST_COLOR[@]}"} )
-    [[ ${#POWERLINE_HOST_COLOR[@]} == 0 ]] && POWERLINE_HOST_COLOR=(220 166 0 0 3 2)
+    [[ ${#POWERLINE_HOST_COLOR[@]} == 0 ]] && POWERLINE_HOST_COLOR=(124 54 186 207 199 214)
 
     POWERLINE_USER_COLOR=( ${POWERLINE_USER_COLOR[@]+"${POWERLINE_USER_COLOR[@]}"} )
     [[ ${#POWERLINE_USER_COLOR[@]} == 0 ]] && POWERLINE_USER_COLOR=(231 31 1 0 7 6)
