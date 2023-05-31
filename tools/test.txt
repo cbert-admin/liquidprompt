@@ -1,0 +1,336 @@
+---Uname:
+Linux plexbert 5.19.0-42-generic #43~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Apr 21 16:51:08 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+---lpb_release:
+Distributor ID:	Ubuntu
+Description:	Ubuntu 22.04.2 LTS
+Release:	22.04
+Codename:	jammy
+---/etc/*release:
+DISTRIB_ID=Ubuntu
+DISTRIB_RELEASE=22.04
+DISTRIB_CODENAME=jammy
+DISTRIB_DESCRIPTION="Ubuntu 22.04.2 LTS"
+PRETTY_NAME="Ubuntu 22.04.2 LTS"
+NAME="Ubuntu"
+VERSION_ID="22.04"
+VERSION="22.04.2 LTS (Jammy Jellyfish)"
+VERSION_CODENAME=jammy
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=jammy
+---/etc/issue*:
+Ubuntu 22.04.2 LTS \n \l
+
+Ubuntu 22.04.2 LTS
+---/proc/version:
+Linux version 5.19.0-42-generic (buildd@lcy02-amd64-074) (x86_64-linux-gnu-gcc (Ubuntu 11.3.0-1ubuntu1~22.04.1) 11.3.0, GNU ld (GNU Binutils for Ubuntu) 2.38) #43~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Apr 21 16:51:08 UTC 2
+
+Special character check: 	
+
+Command: "uname"
+--------stdout--------
+Linux
+
+--------stderr--------
+
+----------------------
+Return code: "0"
+
+Command: "uname -s"
+--------stdout--------
+Linux
+
+--------stderr--------
+
+----------------------
+Return code: "0"
+
+Command: "uname -s -m"
+--------stdout--------
+Linux x86_64
+
+--------stderr--------
+
+----------------------
+Return code: "0"
+
+Command: "uname -o"
+--------stdout--------
+GNU/Linux
+
+--------stderr--------
+
+----------------------
+Return code: "0"
+
+Command: "hostname_cksum"
+--------stdout--------
+4235077699 9
+
+--------stderr--------
+
+----------------------
+Return code: "0"
+
+Command: "tput sgr0"
+--------stdout--------
+(B[m
+--------stderr--------
+
+----------------------
+Return code: "0"
+
+Command: "tput me"
+--------stdout--------
+
+--------stderr--------
+tput: unknown terminfo capability 'me'
+----------------------
+Return code: "4"
+
+Command: "tput bold"
+--------stdout--------
+[1m
+--------stderr--------
+
+----------------------
+Return code: "0"
+
+Command: "tput md"
+--------stdout--------
+
+--------stderr--------
+tput: unknown terminfo capability 'md'
+----------------------
+Return code: "4"
+
+Command: "tput smul"
+--------stdout--------
+[4m
+--------stderr--------
+
+----------------------
+Return code: "0"
+
+Command: "tput us"
+--------stdout--------
+
+--------stderr--------
+tput: unknown terminfo capability 'us'
+----------------------
+Return code: "4"
+
+Command: "tput colors"
+--------stdout--------
+256
+
+--------stderr--------
+
+----------------------
+Return code: "0"
+
+Command: "tput setaf 0"
+--------stdout--------
+[30m
+--------stderr--------
+
+----------------------
+Return code: "0"
+
+Command: "tput AF 0"
+--------stdout--------
+
+--------stderr--------
+tput: unknown terminfo capability 'AF'
+----------------------
+Return code: "4"
+
+Command: "tput AF 0 0 0"
+--------stdout--------
+
+--------stderr--------
+tput: unknown terminfo capability 'AF'
+----------------------
+Return code: "4"
+
+Command: "tput setab 0"
+--------stdout--------
+[40m
+--------stderr--------
+
+----------------------
+Return code: "0"
+
+Command: "tput AB 0"
+--------stdout--------
+
+--------stderr--------
+tput: unknown terminfo capability 'AB'
+----------------------
+Return code: "4"
+
+Command: "tput AB 0 0 0"
+--------stdout--------
+
+--------stderr--------
+tput: unknown terminfo capability 'AB'
+----------------------
+Return code: "4"
+
+Command: "who am i"
+--------stdout--------
+cbert    pts/0        May 29 19:55 (10.10.128.1)
+
+--------stderr--------
+
+----------------------
+Return code: "0"
+
+Command: "ps -o comm= -p 15307"
+--------stdout--------
+bash
+
+--------stderr--------
+
+----------------------
+Return code: "0"
+
+Command: "logname"
+--------stdout--------
+cbert
+
+--------stderr--------
+
+----------------------
+Return code: "0"
+
+Command: "screen -ls"
+--------stdout--------
+
+--------stderr--------
+./external-tool-tester.sh: 42: screen: not found
+----------------------
+Return code: "127"
+
+Command: "tmux list-sessions"
+--------stdout--------
+
+--------stderr--------
+./external-tool-tester.sh: 42: tmux: not found
+----------------------
+Return code: "127"
+
+Command: "cat /sys/class/power_supply/*/*"
+--------stdout--------
+
+--------stderr--------
+cat: '/sys/class/power_supply/*/*': No such file or directory
+----------------------
+Return code: "1"
+
+Command: "acpi --battery"
+--------stdout--------
+
+--------stderr--------
+./external-tool-tester.sh: 42: acpi: not found
+----------------------
+Return code: "127"
+
+Command: "pmset -g batt"
+--------stdout--------
+
+--------stderr--------
+./external-tool-tester.sh: 42: pmset: not found
+----------------------
+Return code: "127"
+
+Command: "nproc"
+--------stdout--------
+8
+
+--------stderr--------
+
+----------------------
+Return code: "0"
+
+Command: "cat /proc/loadavg"
+--------stdout--------
+0.00 0.05 0.55 1/359 20799
+
+--------stderr--------
+
+----------------------
+Return code: "0"
+
+Command: "cat /proc/net/wireless"
+--------stdout--------
+Inter-| sta-|   Quality        |   Discarded packets               | Missed | WE
+ face | tus | link level noise |  nwid  crypt   frag  retry   misc | beacon | 22
+
+--------stderr--------
+
+----------------------
+Return code: "0"
+
+Command: "/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport --getinfo"
+--------stdout--------
+
+--------stderr--------
+./external-tool-tester.sh: 42: /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport: not found
+----------------------
+Return code: "127"
+
+Command: "sysctl -n hw.ncpu"
+--------stdout--------
+
+--------stderr--------
+sysctl: cannot stat /proc/sys/hw/ncpu: No such file or directory
+----------------------
+Return code: "255"
+
+Command: "sysctl -n vm.loadavg"
+--------stdout--------
+
+--------stderr--------
+sysctl: cannot stat /proc/sys/vm/loadavg: No such file or directory
+----------------------
+Return code: "255"
+
+Command: "kstat -m cpu_info"
+--------stdout--------
+
+--------stderr--------
+./external-tool-tester.sh: 42: kstat: not found
+----------------------
+Return code: "127"
+
+Command: "uptime"
+--------stdout--------
+ 20:30:36 up  4:09,  1 user,  load average: 0.00, 0.05, 0.55
+
+--------stderr--------
+
+----------------------
+Return code: "0"
+
+Command: "sensors -u"
+--------stdout--------
+
+--------stderr--------
+No sensors found!
+Make sure you loaded all the kernel drivers you need.
+Try sensors-detect to find out which these are.
+----------------------
+Return code: "1"
+
+Command: "acpi -t"
+--------stdout--------
+
+--------stderr--------
+./external-tool-tester.sh: 42: acpi: not found
+----------------------
+Return code: "127"
